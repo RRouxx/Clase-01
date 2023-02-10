@@ -1,0 +1,29 @@
+
+    body
+    {
+        background-color: rgb(60, 226, 210);
+    }
+    
+    hr
+    {
+        height: 5px; 
+        background-color: rgb(245, 25, 245); 
+        border-style: none; 
+        border-radius: 10px;
+        width: 95%;
+    }
+
+    h1
+    {
+        color: rgb(112, 3, 214);
+    }
+
+    h2
+    {
+        color: rgb(112, 3, 214);
+    }
+
+    h3
+    {
+        color: rgb(112, 3, 214);
+    }
