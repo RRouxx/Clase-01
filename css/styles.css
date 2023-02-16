@@ -1,29 +1,80 @@
 
     body
     {
-        background-color: rgb(60, 226, 210);
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
     }
     
     hr
     {
-        height: 5px; 
-        background-color: rgb(245, 25, 245); 
-        border-style: none; 
-        border-radius: 10px;
-        width: 95%;
+        /*height: 5px;*/ 
+        /*background-color: rgb(245, 25, 245);*/
+        /*border-style: solid;*/
+        /*border-radius: 10px;*/
+        border-top: 5px dotted rgb(255, 0, 255);
+        width: 75%;
     }
 
     h1
     {
-        color: rgb(112, 3, 214);
+        color: rgb(143, 23, 255);
     }
 
     h2
     {
-        color: rgb(112, 3, 214);
+        color: rgb(143, 23, 255);
     }
 
     h3
     {
-        color: rgb(112, 3, 214);
+        color: rgb(143, 23, 255);
+    }
+    
+    
+    li
+    {
+        color: rgb(56, 35, 240);
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        list-style: none;
+        letter-spacing: 2.5px;
+    }
+
+    li:before
+    {
+        content: "\1F0A1";
+        color: rgb(255, 0, 0);
+        margin-right: 20px;
+    }
+
+    .work-experience
+    {
+        border: 5px dotted  rgb(255, 0, 255);
+        margin: 25px 0;
+        font-family: 'Times New Roman', Times, serif;
+        min-height: 500px;
+        box-shadow: 0 0 20px black;
+        text-align: center;
+        ;
+    }
+
+    .backfill-table
+    {
+        background-color: rgb(1, 1, 250);
+        margin: 25px 0;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 0 20px black;
+        width: 40%
+    }
+
+    .backfill-tbody
+    {
+        border: 5px dotted rgb(255, 0, 255);
+    }
+
+    a
+    {
+        color: rgb(0, 238, 255);
     }
