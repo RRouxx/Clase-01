@@ -8,12 +8,12 @@
     
     hr
     {
-        /*height: 5px;*/ 
-        /*background-color: rgb(245, 25, 245);*/
-        /*border-style: solid;*/
-        /*border-radius: 10px;*/
-        border-top: 5px dotted rgb(255, 0, 255);
+        height: 10px; 
+        border-style: none none dotted;
+        border-width: 5px;
+        height: 20px;
         width: 75%;
+        border-color: rgb(255, 0, 255);
     }
 
     h1
