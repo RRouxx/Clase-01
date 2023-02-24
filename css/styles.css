@@ -1,86 +1,72 @@
+/*********************************  TAG *********************************/
 
-    body
-    {
-        background-color: rgb(0, 0, 0);
-        color: white;
-        
-    }
+body{
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+h1{
+    margin: 0;
+    font-family: 'Gloock', serif;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Gloock', serif;
+}
+
+h3{
+    margin: 0;
+    font-family: 'Gloock', serif;
+}
+
+p{
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/*********************************  CLASS *********************************/
+
+.top-container
+{
+    height: 200px;
+    background-color: rgb(255, 0, 255);
+    /*padding: 20px;*/
+    width: 200px;
+    position: absolute;
+}
+
+.mid-container
+{
+    height: 200px;
+    background-color: rgb(143, 23, 255);
+    /*padding: 20px;*/
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+
+.bot-container
+{
+    height: 200px;
+    background-color: rgb(6, 35, 240);
+    /*padding: 20px;*/
+    width: 200px;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.mobile
+{
+    height: 200px;
+    background-color: rgb(255, 0, 255);
+    /*padding: 20px;*/
+    width: 200px;
+    position: fixed;
+    left: 200px;
     
-    hr
-    {
-        height: 10px; 
-        border-style: none none dotted;
-        border-width: 5px;
-        height: 20px;
-        width: 75%;
-        border-color: rgb(255, 0, 255);
-    }
-
-    h1
-    {
-        color: rgb(143, 23, 255);
-    }
-
-    h2
-    {
-        color: rgb(143, 23, 255);
-    }
-
-    h3
-    {
-        color: rgb(143, 23, 255);
-    }
-    
-    
-    li
-    {
-        color: rgb(56, 35, 240);
-        font-size: 14px;
-        text-transform: uppercase;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        list-style: none;
-        letter-spacing: 2.5px;
-    }
-
-    li:before
-    {
-        content: "\1F0A1";
-        color: rgb(255, 0, 0);
-        margin-right: 20px;
-    }
-
-    .work-experience
-    {
-        border: 5px dotted  rgb(255, 0, 255);
-        margin: 25px 0;
-        font-family: 'Times New Roman', Times, serif;
-        min-height: 500px;
-        box-shadow: 0 0 20px black;
-        text-align: center;
-        
-
-    }
-
-    .backfill-table
-    {
-        background-color: rgb(1, 1, 250);
-        margin: 25px 0;
-        font-family: 'Times New Roman', Times, serif;
-        box-shadow: 0 0 20px black;
-        width: 40%;
-        text-align: center;
-    }
-
-    .backfill-skills
-    {
-        color: #E9E8E8;
-    text-align: center;
-    font-family: courier;
-    border: 5px dotted rgb(255, 0, 255);
-    margin: 50px;
-    }
-
-    a
-    {
-        color: rgb(0, 238, 255);
-    }
+}
