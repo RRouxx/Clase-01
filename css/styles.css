@@ -1,147 +1,117 @@
+
 /*********************************  TAG *********************************/
 
-body{
-    margin: 0;
-    font-family: 'DM Serif Display', serif;
-    background-color: black;
-    color: white;
-    text-align: center;
-
+body
+{
+   color: white;
+   font-family: 'DM Serif Display', serif;
 }
 
-h1{
-    margin: 0;
-    font-family: 'Gloock', serif;
-    color: rgb(255, 0, 255);
+
+hr
+{
+   height: 10px;
+   border-style: none none dashed;
+   border-width: 3px;
 }
 
-h2{
-    margin: 0;
-    font-family: 'Gloock', serif;
-    color: black;
+
+img
+{
+   margin-left: 50px;
+   margin-right: 50px;
 }
 
-h3{
-    margin: 0;
-    font-family: 'Gloock', serif;
-    color: white;
+p
+{
+   font-family: 'Permanent Marker', cursive;
 }
 
-p{
-    font-family: 'Permanent Marker', cursive;
-    color: rgb(0, 238, 255);
+a
+{
+   color: cyan;
 }
 
+h1
+{
+   margin: 0;
+   font-family: 'Gloock', serif;
+   color: rgb(255, 0, 255);
+}
+
+h2
+{
+   margin: 0;
+   font-family: 'Gloock', serif;
+   color: rgb(255, 0, 255);
+}
+
+h3
+{
+   margin: 0;
+   font-family: 'Gloock', serif;
+   color: white;
+}
 
 /*********************************  CLASS *********************************/
 
-.top-container
-{
-    /*height: 200px;
-    background-color: rgb(255, 0, 255);
-    width: 200px;
-    position: absolute;*/
-    position: relative;
-    background: linear-gradient(45deg, rgb(0, 238, 255), rgb(255, 0, 255));
+.galaxyimage{
+   z-index: -1;
+   width: auto;
+   height: auto;
+   background-attachment: fixed;
+   background-size: cover;
 }
 
-.mid-container
+.principal_div
 {
-    /*height: 200px;
-    background-color: rgb(143, 23, 255);
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 200px;*/
-
+   width: 159px;
+   height: 200px;
+   margin-left: 200px;
+   position: relative;
 }
-
-.bot-container
+.second_div
 {
-    /*height: 200px;
-    background-color: rgb(6, 35, 240);
-    width: 200px;
-    position: absolute;
-    left: 400px;
-    top: 200px;*/
+   height:50px;
+   width:50px;
+   border-width: 3px;
+   margin-left: -5px;
+   margin-top: -5px;
+   border-style: dashed;
+   border-color: rgb(255, 0, 255);
 }
-
-.mobile
+.piecei
 {
-    /*height: 200px;
-    background-color: rgb(255, 0, 255);
-
-    width: 200px;
-    position: fixed;
-    left: 200px;*/
-    
+   background-color: rgb(0, 255, 255);
 }
- .rubik-top
- {
-    width: 180px;
-    position: absolute;
-    top: 50px;
-    right: 300px;
- }
-
- .rubik-bot
- {
-    width: 180px;
-    position: absolute;
-    bottom: 50px;
-    left: 300px;
- }
-
- .name
- {
-    position: relative;
-    bottom: 540px;
-    font-size: 100px;
-    color: rgb(255, 0, 255);
-    background-color: blueviolet;
-    display: inline-block;
-    padding: 5px 30px;
-    border-radius: 40px;
-
- }
-
- .subtitle
- {
-    position: relative;
-    bottom: 550px;
-    font-size: 25px;
-    font-family: 'permanent Marker', cursive;
-    font-weight: 800;
-    color: rgb(0, 238, 255);
-
- }
- .gameplay
- {
-    text-decoration: underline;
- }
-
- .sun
- {
-    display: block;
-    margin: 0 auto;
- }
- 
- .skill-row
- {
-    display: inline-block;
- }
-
- .skill1-img
- {
-    width: 100px;
- }
-
- .skill2-img
- {
-    width: 100px;
- }
-
- .skill3-img
- {
-    width: 100px;
- }
+.piecej
+{
+   background-color: rgb(0, 0, 255);
+}
+.piecel
+{
+   background-color: rgb(247, 161, 0);
+}
+.pieceo
+{
+   background-color: rgb(251, 255, 0);
+}
+.pieces
+{
+   background-color: rgb(4, 243, 4);
+}
+.piecet
+{
+   background-color: rgb(120, 3, 136);
+}
+.piecez
+{
+   background-color: rgb(255, 0, 0);
+}
+.opaque
+{
+   padding: 30px;
+   width: 80%;
+   background-color: rgba(0, 225, 255, 0.315);
+   margin: auto;
+}

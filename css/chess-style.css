@@ -1,0 +1,37 @@
+body
+{
+    background-color: rgb(79, 4, 102);
+}
+
+img
+{
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.columns
+{
+    display: block;
+    margin: 0 ;
+    margin-top: -4px;
+}
+
+.square1
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17, 141, 5);
+    display: inline-block;
+}
+
+.square2
+{
+    height:100px;
+    width:100px;
+    background-color: rgb(159, 230, 141);
+    display: inline-block;
+    
+}
+
