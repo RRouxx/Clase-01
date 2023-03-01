@@ -3,26 +3,33 @@
 body{
     margin: 0;
     font-family: 'DM Serif Display', serif;
+    background-color: black;
+    color: white;
+    text-align: center;
 
 }
 
 h1{
     margin: 0;
     font-family: 'Gloock', serif;
+    color: rgb(255, 0, 255);
 }
 
 h2{
     margin: 0;
     font-family: 'Gloock', serif;
+    color: black;
 }
 
 h3{
     margin: 0;
     font-family: 'Gloock', serif;
+    color: white;
 }
 
 p{
     font-family: 'Permanent Marker', cursive;
+    color: rgb(0, 238, 255);
 }
 
 
@@ -30,43 +37,112 @@ p{
 
 .top-container
 {
-    height: 200px;
+    /*height: 200px;
     background-color: rgb(255, 0, 255);
-    /*padding: 20px;*/
     width: 200px;
-    position: absolute;
+    position: absolute;*/
+    position: relative;
+    background: linear-gradient(45deg, rgb(0, 238, 255), rgb(255, 0, 255));
 }
 
 .mid-container
 {
-    height: 200px;
+    /*height: 200px;
     background-color: rgb(143, 23, 255);
-    /*padding: 20px;*/
     width: 200px;
     position: absolute;
     left: 200px;
-    top: 200px;
+    top: 200px;*/
 
 }
 
 .bot-container
 {
-    height: 200px;
+    /*height: 200px;
     background-color: rgb(6, 35, 240);
-    /*padding: 20px;*/
     width: 200px;
     position: absolute;
     left: 400px;
-    top: 200px;
+    top: 200px;*/
 }
 
 .mobile
 {
-    height: 200px;
+    /*height: 200px;
     background-color: rgb(255, 0, 255);
-    /*padding: 20px;*/
+
     width: 200px;
     position: fixed;
-    left: 200px;
+    left: 200px;*/
     
 }
+ .rubik-top
+ {
+    width: 180px;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+ }
+
+ .rubik-bot
+ {
+    width: 180px;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+ }
+
+ .name
+ {
+    position: relative;
+    bottom: 540px;
+    font-size: 100px;
+    color: rgb(255, 0, 255);
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 40px;
+
+ }
+
+ .subtitle
+ {
+    position: relative;
+    bottom: 550px;
+    font-size: 25px;
+    font-family: 'permanent Marker', cursive;
+    font-weight: 800;
+    color: rgb(0, 238, 255);
+
+ }
+ .gameplay
+ {
+    text-decoration: underline;
+ }
+
+ .sun
+ {
+    display: block;
+    margin: 0 auto;
+ }
+ 
+ .skill-row
+ {
+    display: inline-block;
+ }
+
+ .skill1-img
+ {
+    width: 100px;
+ }
+
+ .skill2-img
+ {
+    width: 100px;
+ }
+
+ .skill3-img
+ {
+    width: 100px;
+    text-size-adjust: 75%;
+ }
