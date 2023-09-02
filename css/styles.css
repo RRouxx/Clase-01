@@ -160,7 +160,7 @@ p{
 
 .skills-table
 {
-   width: 35%;
+   width: 25%;
    margin: 50px auto;
 }
 
@@ -210,6 +210,27 @@ p{
    border-radius: 10px;
    width: 90%;
 }
+
+.backfill-table
+    {
+        background-color: linear-gradient(45deg, rgb(0, 238, 255), rgb(255, 0, 255));
+        margin: 25px 0;
+        font-family: 'Gloock', serif;
+        box-shadow: 0 0 20px black;
+        text-align: center;
+    }
+
+    .work-experience
+    {
+         background-color: linear-gradient(45deg, rgb(0, 238, 255), rgb(255, 0, 255));
+        margin: 25px 0;
+        font-family: 'Gloock', serif;
+        min-height: 500px;
+        box-shadow: 0 0 20px black;
+        text-align: center;
+        
+
+    }
 
 .btn 
 {
