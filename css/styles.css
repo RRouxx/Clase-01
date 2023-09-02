@@ -12,13 +12,13 @@ body{
 h1{
     margin: 0;
     font-family: 'Gloock', serif;
-    color: rgb(255, 0, 255);
+    color: rgb(57, 5, 141);
 }
 
 h2{
     margin: 0;
     font-family: 'Gloock', serif;
-    color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
 }
 
 h3{
@@ -29,8 +29,24 @@ h3{
 
 p{
     font-family: 'Permanent Marker', cursive;
-    color: rgb(110, 3, 180);
+    color: rgb(255, 255, 255);
 }
+
+li
+    {
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-family: 'Gloock', serif;
+        list-style: none;
+        letter-spacing: 2.5px;
+    }
+
+    li:before
+    {
+        content: "\1F0A1";
+        color: rgb(0, 0, 0);
+        margin-right: 20px;
+    }
 
 
 /*********************************  CLASS *********************************/
@@ -132,6 +148,18 @@ p{
 
  }
 
+ .gallery-row
+ {
+      display: inline-block;
+      margin: 20px 100px;
+
+ }
+
+ .gallery-img
+ {
+    width: 70%;
+ }
+
  .skill1-img
  {
     width: 100px;
@@ -161,6 +189,12 @@ p{
 .skills-table
 {
    width: 25%;
+   margin: 50px auto;
+}
+
+.credits-table
+{
+   width: 15%;
    margin: 50px auto;
 }
 
