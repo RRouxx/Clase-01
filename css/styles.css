@@ -158,6 +158,13 @@ p{
    margin: 50px auto;
 }
 
+.skills-table
+{
+   width: 35%;
+   margin: 50px auto;
+}
+
+
 .software div:nth-child(even)
 {
    text-align: left;
